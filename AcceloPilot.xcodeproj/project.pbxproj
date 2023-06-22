@@ -3,32 +3,94 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B43167B7A1AC809EB9DD3E4 /* Pods_AcceloPilot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2415A1DB43EA3FE9558460E3 /* Pods_AcceloPilot.framework */; };
+		8420B9D3238C203C00CB43FC /* Response.m in Sources */ = {isa = PBXBuildFile; fileRef = 8420B9D2238C203C00CB43FC /* Response.m */; };
+		8420B9D6238C218A00CB43FC /* Affiliation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8420B9D5238C218A00CB43FC /* Affiliation.m */; };
+		8420B9D9238C21C100CB43FC /* Staff.m in Sources */ = {isa = PBXBuildFile; fileRef = 8420B9D8238C21C100CB43FC /* Staff.m */; };
+		8420B9DC238C21F700CB43FC /* Threads.m in Sources */ = {isa = PBXBuildFile; fileRef = 8420B9DB238C21F700CB43FC /* Threads.m */; };
+		8420B9DF238C256E00CB43FC /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = 8420B9DE238C256E00CB43FC /* Request.m */; };
+		8420B9E2238C25B800CB43FC /* Meta.m in Sources */ = {isa = PBXBuildFile; fileRef = 8420B9E1238C25B800CB43FC /* Meta.m */; };
 		8456242F23853F8000BFE1F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8456242E23853F8000BFE1F0 /* AppDelegate.m */; };
 		8456243223853F8000BFE1F0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8456243123853F8000BFE1F0 /* SceneDelegate.m */; };
-		8456243523853F8000BFE1F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8456243423853F8000BFE1F0 /* ViewController.m */; };
+		8456243523853F8000BFE1F0 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8456243423853F8000BFE1F0 /* LoginViewController.m */; };
 		8456243823853F8000BFE1F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8456243623853F8000BFE1F0 /* Main.storyboard */; };
 		8456243A23853F8200BFE1F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8456243923853F8200BFE1F0 /* Assets.xcassets */; };
 		8456243D23853F8200BFE1F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8456243B23853F8200BFE1F0 /* LaunchScreen.storyboard */; };
 		8456244023853F8200BFE1F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8456243F23853F8200BFE1F0 /* main.m */; };
+		8465C410238BE98E00845F9E /* Activity.m in Sources */ = {isa = PBXBuildFile; fileRef = 8465C40F238BE98E00845F9E /* Activity.m */; };
+		8465C412238BEABB00845F9E /* Interact.m in Sources */ = {isa = PBXBuildFile; fileRef = 8465C411238BEABB00845F9E /* Interact.m */; };
+		847D671D23856D2A006FD798 /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 847D671C23856D2A006FD798 /* APIManager.m */; };
+		84BE98072395041C00688B6B /* CreateActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE98062395041C00688B6B /* CreateActivityViewController.m */; };
+		84BE980923953C5D00688B6B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BE980823953C5D00688B6B /* SystemConfiguration.framework */; };
+		84BE980C23953CE200688B6B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE980B23953CE200688B6B /* Reachability.m */; };
+		84BE980F239549A000688B6B /* ActivityToSave.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE980E239549A000688B6B /* ActivityToSave.m */; };
+		84BE98122395641C00688B6B /* SavingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE98112395641C00688B6B /* SavingManager.m */; };
+		84E1960F23884A2300D07876 /* ActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E1960E23884A2300D07876 /* ActivityViewController.m */; };
+		84FC9A7F238C009A00107623 /* ActivityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FC9A7D238C009A00107623 /* ActivityTableViewCell.m */; };
+		84FC9A80238C009A00107623 /* ActivityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84FC9A7E238C009A00107623 /* ActivityTableViewCell.xib */; };
+		84FC9A8B238C0C0E00107623 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FC9A8A238C0C0E00107623 /* Constants.m */; };
+		84FE03A8238EBE2A0080368A /* ActivityDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FE03A7238EBE2A0080368A /* ActivityDetailsViewController.m */; };
+		84FE03AB2390128A0080368A /* ConvertTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FE03AA2390128A0080368A /* ConvertTime.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2415A1DB43EA3FE9558460E3 /* Pods_AcceloPilot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AcceloPilot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72F48248B9F34FB8DA470121 /* Pods-AcceloPilot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcceloPilot.release.xcconfig"; path = "Target Support Files/Pods-AcceloPilot/Pods-AcceloPilot.release.xcconfig"; sourceTree = "<group>"; };
+		8420B9D1238C203C00CB43FC /* Response.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Response.h; sourceTree = "<group>"; };
+		8420B9D2238C203C00CB43FC /* Response.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Response.m; sourceTree = "<group>"; };
+		8420B9D4238C218A00CB43FC /* Affiliation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Affiliation.h; sourceTree = "<group>"; };
+		8420B9D5238C218A00CB43FC /* Affiliation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Affiliation.m; sourceTree = "<group>"; };
+		8420B9D7238C21C100CB43FC /* Staff.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Staff.h; sourceTree = "<group>"; };
+		8420B9D8238C21C100CB43FC /* Staff.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Staff.m; sourceTree = "<group>"; };
+		8420B9DA238C21F700CB43FC /* Threads.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Threads.h; sourceTree = "<group>"; };
+		8420B9DB238C21F700CB43FC /* Threads.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Threads.m; sourceTree = "<group>"; };
+		8420B9DD238C256E00CB43FC /* Request.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
+		8420B9DE238C256E00CB43FC /* Request.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Request.m; sourceTree = "<group>"; };
+		8420B9E0238C25B800CB43FC /* Meta.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Meta.h; sourceTree = "<group>"; };
+		8420B9E1238C25B800CB43FC /* Meta.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Meta.m; sourceTree = "<group>"; };
 		8456242A23853F8000BFE1F0 /* AcceloPilot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcceloPilot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8456242D23853F8000BFE1F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8456242E23853F8000BFE1F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8456243023853F8000BFE1F0 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		8456243123853F8000BFE1F0 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		8456243323853F8000BFE1F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8456243423853F8000BFE1F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8456243323853F8000BFE1F0 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		8456243423853F8000BFE1F0 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		8456243723853F8000BFE1F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8456243923853F8200BFE1F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8456243C23853F8200BFE1F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8456243E23853F8200BFE1F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8456243F23853F8200BFE1F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8465C40E238BE97500845F9E /* Activity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Activity.h; sourceTree = "<group>"; };
+		8465C40F238BE98E00845F9E /* Activity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Activity.m; sourceTree = "<group>"; };
+		8465C411238BEABB00845F9E /* Interact.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Interact.m; sourceTree = "<group>"; };
+		8465C413238BEAC700845F9E /* Interact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Interact.h; sourceTree = "<group>"; };
+		847D671C23856D2A006FD798 /* APIManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APIManager.m; sourceTree = "<group>"; };
+		847D671E23856D4F006FD798 /* APIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
+		84BE98052395041C00688B6B /* CreateActivityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateActivityViewController.h; sourceTree = "<group>"; };
+		84BE98062395041C00688B6B /* CreateActivityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateActivityViewController.m; sourceTree = "<group>"; };
+		84BE980823953C5D00688B6B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		84BE980A23953CE200688B6B /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		84BE980B23953CE200688B6B /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		84BE980D239549A000688B6B /* ActivityToSave.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActivityToSave.h; sourceTree = "<group>"; };
+		84BE980E239549A000688B6B /* ActivityToSave.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActivityToSave.m; sourceTree = "<group>"; };
+		84BE98102395641C00688B6B /* SavingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SavingManager.h; sourceTree = "<group>"; };
+		84BE98112395641C00688B6B /* SavingManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SavingManager.m; sourceTree = "<group>"; };
+		84E1960D23884A2300D07876 /* ActivityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActivityViewController.h; sourceTree = "<group>"; };
+		84E1960E23884A2300D07876 /* ActivityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActivityViewController.m; sourceTree = "<group>"; };
+		84FC9A7C238C009A00107623 /* ActivityTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActivityTableViewCell.h; sourceTree = "<group>"; };
+		84FC9A7D238C009A00107623 /* ActivityTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActivityTableViewCell.m; sourceTree = "<group>"; };
+		84FC9A7E238C009A00107623 /* ActivityTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityTableViewCell.xib; sourceTree = "<group>"; };
+		84FC9A89238C0C0E00107623 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		84FC9A8A238C0C0E00107623 /* Constants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		84FE03A6238EBE2A0080368A /* ActivityDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActivityDetailsViewController.h; sourceTree = "<group>"; };
+		84FE03A7238EBE2A0080368A /* ActivityDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActivityDetailsViewController.m; sourceTree = "<group>"; };
+		84FE03AA2390128A0080368A /* ConvertTime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConvertTime.m; sourceTree = "<group>"; };
+		84FE03AC239012980080368A /* ConvertTime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConvertTime.h; sourceTree = "<group>"; };
+		A947AAA73D39F993D7911725 /* Pods-AcceloPilot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcceloPilot.debug.xcconfig"; path = "Target Support Files/Pods-AcceloPilot/Pods-AcceloPilot.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +98,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84BE980923953C5D00688B6B /* SystemConfiguration.framework in Frameworks */,
+				0B43167B7A1AC809EB9DD3E4 /* Pods_AcceloPilot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +111,8 @@
 			children = (
 				8456242C23853F8000BFE1F0 /* AcceloPilot */,
 				8456242B23853F8000BFE1F0 /* Products */,
+				C1520096CB63169359C0F9C9 /* Pods */,
+				84CF64A60CD7F991245404D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,19 +127,122 @@
 		8456242C23853F8000BFE1F0 /* AcceloPilot */ = {
 			isa = PBXGroup;
 			children = (
+				84BE980A23953CE200688B6B /* Reachability.h */,
+				84BE980B23953CE200688B6B /* Reachability.m */,
+				84FE03A9239012500080368A /* Helpers */,
+				847D671B23856D01006FD798 /* API */,
+				84FC9A85238C0AD000107623 /* Constants */,
+				8465C40D238BE95900845F9E /* Model */,
+				84FC9A81238C08B400107623 /* ViewControllers */,
+				84FC9A82238C08CD00107623 /* Storyboards */,
 				8456242D23853F8000BFE1F0 /* AppDelegate.h */,
 				8456242E23853F8000BFE1F0 /* AppDelegate.m */,
 				8456243023853F8000BFE1F0 /* SceneDelegate.h */,
 				8456243123853F8000BFE1F0 /* SceneDelegate.m */,
-				8456243323853F8000BFE1F0 /* ViewController.h */,
-				8456243423853F8000BFE1F0 /* ViewController.m */,
-				8456243623853F8000BFE1F0 /* Main.storyboard */,
 				8456243923853F8200BFE1F0 /* Assets.xcassets */,
-				8456243B23853F8200BFE1F0 /* LaunchScreen.storyboard */,
 				8456243E23853F8200BFE1F0 /* Info.plist */,
 				8456243F23853F8200BFE1F0 /* main.m */,
 			);
 			path = AcceloPilot;
+			sourceTree = "<group>";
+		};
+		8465C40D238BE95900845F9E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8420B9DD238C256E00CB43FC /* Request.h */,
+				8420B9DE238C256E00CB43FC /* Request.m */,
+				8420B9E0238C25B800CB43FC /* Meta.h */,
+				8420B9E1238C25B800CB43FC /* Meta.m */,
+				8420B9D1238C203C00CB43FC /* Response.h */,
+				8420B9D2238C203C00CB43FC /* Response.m */,
+				8420B9D4238C218A00CB43FC /* Affiliation.h */,
+				8420B9D5238C218A00CB43FC /* Affiliation.m */,
+				8420B9D7238C21C100CB43FC /* Staff.h */,
+				8420B9D8238C21C100CB43FC /* Staff.m */,
+				8420B9DA238C21F700CB43FC /* Threads.h */,
+				8420B9DB238C21F700CB43FC /* Threads.m */,
+				8465C40E238BE97500845F9E /* Activity.h */,
+				8465C40F238BE98E00845F9E /* Activity.m */,
+				84BE980D239549A000688B6B /* ActivityToSave.h */,
+				84BE980E239549A000688B6B /* ActivityToSave.m */,
+				8465C413238BEAC700845F9E /* Interact.h */,
+				8465C411238BEABB00845F9E /* Interact.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		847D671B23856D01006FD798 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				847D671E23856D4F006FD798 /* APIManager.h */,
+				847D671C23856D2A006FD798 /* APIManager.m */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		84CF64A60CD7F991245404D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84BE980823953C5D00688B6B /* SystemConfiguration.framework */,
+				2415A1DB43EA3FE9558460E3 /* Pods_AcceloPilot.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84FC9A81238C08B400107623 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8456243323853F8000BFE1F0 /* LoginViewController.h */,
+				8456243423853F8000BFE1F0 /* LoginViewController.m */,
+				84E1960D23884A2300D07876 /* ActivityViewController.h */,
+				84E1960E23884A2300D07876 /* ActivityViewController.m */,
+				84FC9A7C238C009A00107623 /* ActivityTableViewCell.h */,
+				84FC9A7D238C009A00107623 /* ActivityTableViewCell.m */,
+				84FC9A7E238C009A00107623 /* ActivityTableViewCell.xib */,
+				84FE03A6238EBE2A0080368A /* ActivityDetailsViewController.h */,
+				84FE03A7238EBE2A0080368A /* ActivityDetailsViewController.m */,
+				84BE98052395041C00688B6B /* CreateActivityViewController.h */,
+				84BE98062395041C00688B6B /* CreateActivityViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		84FC9A82238C08CD00107623 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8456243623853F8000BFE1F0 /* Main.storyboard */,
+				8456243B23853F8200BFE1F0 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		84FC9A85238C0AD000107623 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				84FC9A89238C0C0E00107623 /* Constants.h */,
+				84FC9A8A238C0C0E00107623 /* Constants.m */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		84FE03A9239012500080368A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				84FE03AC239012980080368A /* ConvertTime.h */,
+				84FE03AA2390128A0080368A /* ConvertTime.m */,
+				84BE98102395641C00688B6B /* SavingManager.h */,
+				84BE98112395641C00688B6B /* SavingManager.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C1520096CB63169359C0F9C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A947AAA73D39F993D7911725 /* Pods-AcceloPilot.debug.xcconfig */,
+				72F48248B9F34FB8DA470121 /* Pods-AcceloPilot.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +252,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8456244323853F8200BFE1F0 /* Build configuration list for PBXNativeTarget "AcceloPilot" */;
 			buildPhases = (
+				7FC69EA31431D6A2FA0A4628 /* [CP] Check Pods Manifest.lock */,
 				8456242623853F8000BFE1F0 /* Sources */,
 				8456242723853F8000BFE1F0 /* Frameworks */,
 				8456242823853F8000BFE1F0 /* Resources */,
+				B36F3066AD9EDFF2DB78D4CC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,21 +306,82 @@
 			files = (
 				8456243D23853F8200BFE1F0 /* LaunchScreen.storyboard in Resources */,
 				8456243A23853F8200BFE1F0 /* Assets.xcassets in Resources */,
+				84FC9A80238C009A00107623 /* ActivityTableViewCell.xib in Resources */,
 				8456243823853F8000BFE1F0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7FC69EA31431D6A2FA0A4628 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AcceloPilot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B36F3066AD9EDFF2DB78D4CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AcceloPilot/Pods-AcceloPilot-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AcceloPilot/Pods-AcceloPilot-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AcceloPilot/Pods-AcceloPilot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8456242623853F8000BFE1F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8456243523853F8000BFE1F0 /* ViewController.m in Sources */,
+				84BE98072395041C00688B6B /* CreateActivityViewController.m in Sources */,
+				8456243523853F8000BFE1F0 /* LoginViewController.m in Sources */,
+				8420B9D3238C203C00CB43FC /* Response.m in Sources */,
+				8420B9D6238C218A00CB43FC /* Affiliation.m in Sources */,
 				8456242F23853F8000BFE1F0 /* AppDelegate.m in Sources */,
+				84FE03A8238EBE2A0080368A /* ActivityDetailsViewController.m in Sources */,
+				8420B9D9238C21C100CB43FC /* Staff.m in Sources */,
+				8420B9DC238C21F700CB43FC /* Threads.m in Sources */,
 				8456244023853F8200BFE1F0 /* main.m in Sources */,
+				8465C412238BEABB00845F9E /* Interact.m in Sources */,
+				8420B9E2238C25B800CB43FC /* Meta.m in Sources */,
+				84BE98122395641C00688B6B /* SavingManager.m in Sources */,
+				84FE03AB2390128A0080368A /* ConvertTime.m in Sources */,
 				8456243223853F8000BFE1F0 /* SceneDelegate.m in Sources */,
+				84FC9A8B238C0C0E00107623 /* Constants.m in Sources */,
+				84BE980C23953CE200688B6B /* Reachability.m in Sources */,
+				84FC9A7F238C009A00107623 /* ActivityTableViewCell.m in Sources */,
+				8420B9DF238C256E00CB43FC /* Request.m in Sources */,
+				847D671D23856D2A006FD798 /* APIManager.m in Sources */,
+				84BE980F239549A000688B6B /* ActivityToSave.m in Sources */,
+				8465C410238BE98E00845F9E /* Activity.m in Sources */,
+				84E1960F23884A2300D07876 /* ActivityViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +519,7 @@
 		};
 		8456244423853F8200BFE1F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A947AAA73D39F993D7911725 /* Pods-AcceloPilot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +537,7 @@
 		};
 		8456244523853F8200BFE1F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72F48248B9F34FB8DA470121 /* Pods-AcceloPilot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
